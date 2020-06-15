@@ -7,7 +7,7 @@ class Config:
     SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL", "sqlite:///" + os.path.join(config_path, 'twittor.db'))
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SECRET_KEY = os.environ.get('SECRET_KEY', 'abc123')
-    TWEET_PER_PAGE = os.environ.get('TWEET_PER_PAGE', 20)
+    TWEET_PER_PAGE = os.environ.get('TWEET_PER_PAGE', 5)
 
     MAIL_DEFAULT_SENDER = os.environ.get('MAIL_DEFAULT_SENDER', 'noreply@twittor.com')
     MAIL_SERVER = os.environ.get('MAIL_SERVER', 'smtp.googlemail.com')
