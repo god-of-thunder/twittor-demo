@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+    web:
+        build: .
+        ports:
+            - "8000:8000"
+        environment: 
+            - DATABASE_URL=sqlite:///twittor.db
+            - MAIL_USERNAME=xxx@gmail.com
+            - MAIL_PASSWORD=xxxxxxxxx
+                
+    nginx:
+        restart: always
+        build: ./nginx/
+        ports:
+            - "80:80"
+        links: 
+            - web
