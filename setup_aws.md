@@ -1,15 +1,15 @@
 set up on AWS
-
+________________________________________________________________________________________________________________________________________
 install docker
 
 https://docs.docker.com/engine/install/centos/
-
+________________________________________________________________________________________________________________________________________
 use docker without sudo
 
-sudo usermod -aG docker centos
+[centos@AWS上創建EC2的IP~]$ sudo usermod -aG docker centos
 
-sudo systemctl restart docker
-
+[centos@AWS上創建EC2的IP~]$ sudo systemctl restart docker
+________________________________________________________________________________________________________________________________________
 [centos@AWS上創建EC2的IP~]$ docker version
 
 Client: Docker Engine - Community
