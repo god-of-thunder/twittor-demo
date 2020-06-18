@@ -8,6 +8,8 @@ use docker without sudo
 
 [centos@AWS上創建EC2的IP~]$ sudo usermod -aG docker centos
 
+[centos@AWS上創建EC2的IP~]$ sudo systemctl enable docker
+
 [centos@AWS上創建EC2的IP~]$ sudo systemctl restart docker
 ________________________________________________________________________________________________________________________________________
 [centos@AWS上創建EC2的IP~]$ docker version
