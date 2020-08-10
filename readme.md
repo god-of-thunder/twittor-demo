@@ -20,8 +20,6 @@ username:admin password:admin 可登入帳號密碼
 ![](./demo_photograph/首頁.png)
 註冊
 ![](./demo_photograph/註冊.png)
-登入
-![](./demo_photograph/登入.png)
 搜尋
 ![](./demo_photograph/搜尋.png)
 個人頁面
