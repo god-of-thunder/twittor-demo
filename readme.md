@@ -15,3 +15,6 @@ git clone https://github.com/god-of-thunder/twittor-demo.git --config core.autoc
 重新執行5~9行，確認運作正常，請開啟網頁輸入0.0.0.0:8000
 
 username:admin password:admin 可登入帳號密碼
+
+首頁
+![](./demo_photograph/首頁.png)
